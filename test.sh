@@ -13,9 +13,11 @@ fi
 
 
 done
+echo "一共游过去${#my_array[@]}波鸭子"
 
 duck=0
 for i in ${my_array[@]};do
 let 'duck+=i'
 done
 echo "一共游过去$duck 只鸭子"
+
